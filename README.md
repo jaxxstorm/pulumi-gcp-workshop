@@ -1,6 +1,6 @@
-# pulumi-gcp-worksgop
+# pulumi-gcp-workshop
 
-This workshops guides you through using Pulumi's [Google Cloud Platform](https://www.pulumi.com/docs/intro/cloud-providers/gcp/) provider.
+This workshop guides you through using Pulumi's [Google Cloud Platform](https://www.pulumi.com/docs/intro/cloud-providers/gcp/) provider.
 
 Before you can use the workshop, there are some steps you need to take.
 
@@ -14,7 +14,7 @@ The hands-on workshop will walk you through various tasks of managing Azure infr
 
 ### Node.js
 
-You will need Node.js version 10 or later to run Pulumi programs written in [TypeScript](https://www.typescriptlang.org/).
+You will need Node.js version 12 or later to run Pulumi programs written in [TypeScript](https://www.typescriptlang.org/).
 Install your desired LTS version from [the Node.js download page](https://nodejs.org/en/download/) or
 [using a package manager](https://nodejs.org/en/download/package-manager/).
 
