@@ -76,7 +76,7 @@ It looks a little bit like this:
       name: name,
       source: new pulumi.asset.FileAsset(`../wwwroot/${name}`),
       
-    }, { dependsOn: accessControl })
+    }, { dependsOn: acl })
 );
 ```
 
@@ -123,4 +123,4 @@ You can examine the details of the resources that will be created. When you're h
 
 # Next Steps
 
-* [Deploy with Docker](../lab-02/README.md)
+* [Deploy with Docker](../lab-03/README.md)

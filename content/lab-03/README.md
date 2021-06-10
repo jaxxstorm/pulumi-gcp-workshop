@@ -25,18 +25,8 @@ const imageName = "my-first-gcp-app";
 const image = new docker.Image("example", {
   imageName: pulumi.interpolate`gcr.io/${gcp.config.project}/${imageName}:latest`,
   build: {
-    context: "./wwwroot",
+    context: "../wwwroot",
   },
-});
-```
-
-
-
-Now we've imported our GCP provider, we can create our bucket. Declare a constant called `bucket` and create a new bucket like so:
-
-```typescript
-const bucket = new gcp.storage.Bucket("website", {
-  location: "US",
 });
 ```
 
@@ -71,7 +61,7 @@ const imageName = "my-first-gcp-app";
 const image = new docker.Image("example", {
   imageName: pulumi.interpolate`gcr.io/${gcp.config.project}/${imageName}:latest`,
   build: {
-    context: "./wwwroot",
+    context: "../wwwroot",
   },
 });
 ```
