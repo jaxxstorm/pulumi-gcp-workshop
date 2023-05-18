@@ -1,4 +1,4 @@
-# pulumi-gcp-worksgop
+# pulumi-gcp-workshop
 
 This workshops guides you through using Pulumi's [Google Cloud Platform](https://www.pulumi.com/docs/intro/cloud-providers/gcp/) provider.
 
